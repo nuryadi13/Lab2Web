@@ -5,7 +5,7 @@
 
 ## Langkah langkah praktikum 2
 Membuka text editor, Saya menggunakan Sublime text
-![img1!](assets/img/praktikum/start.png)
+![screenshot](screenshot/foto1.png)
  
 ## 1. Membuat Dokumen HTML
 ![img1!](assets/img/1/1.png)
