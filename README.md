@@ -8,49 +8,50 @@ Membuka text editor, Saya menggunakan Sublime text
 ![screenshot](screenshot/foto1.png)
  
 ## 1. Membuat Dokumen HTML
-![img1!](assets/img/1/1.png)
+![screenshot](screenshot/foto2.png)
 
 Buka pada browser untuk melihat hasilnya
 
-![img1-1!](assets/img/1/1-1.png)
+![screenshot](screenshot/foto3.png)
 
 ## 2. Mendeklarasikan CSS Internal
-![img2!](assets/img/2/2.png)
+![screenshot](screenshot/foto4.png)
+![screenshot](screenshot/foto4.1.png)
 
 simpan perubahan yang ada, dan lakukan refresh pada browser untuk melihat hasilnya
 
-![img2-1!](assets/img/2/2-1.png)
+![screenshot](screenshot/foto5.png)
 
 ## 3. Menambahkan Inline CSS
 tambahkan deklarasi inline CSS pada tag `<p>` seperti berikut
 
-![img3!](assets/img/3/3-2.png)
+![screenshot](screenshot/foto6.png)
 
 Refresh kembali browser untuk melihat perubahannya
 
-![img3-1!](assets/img/3/3-1.png)
+![screenshot](screenshot/foto7.png)
 
 ## 4. Membuat CSS Eksternal
 Buatlah file baru dengan nama style_eksternal.css kemudian buatlah deklarasi CSS seperti berikut
 
-![img4!](assets/img/4/4.png)
+![screenshot](screenshot/foto8.png)
 
 Kemudian tambahkan tag `<link>` untuk merujuk file css yang sudah dibuat pada bagian `<head>`
 
-![img4-1!](assets/img/4/4-1.png)
+![screenshot](screenshot/foto9.png)
 
 Selanjutnya refresh kembali browser untuk melihat perubahannya.
 
-![img4-1!](assets/img/4/4-2.png)
+![screenshot](screenshot/foto10.png)
 
 ## 5. Menambahkan CSS Selektor
 Selanjutnya menambahkan CSS Selector menggunakan ID dan Class Selector. Pada file style_eksternal.css, tambahkan kode berikut
 
-![img5!](assets/img/5/5.png)
+![screenshot](screenshot/foto11.png)
 
 Kemudian simpan kembali dan refresh browser untuk melihat perubahannya
 
-![img5-1!](assets/img/5/5-1.png)
+![screenshot](screenshot/foto12.png)
 
 
 ## Pertanyaan dan Tugas
