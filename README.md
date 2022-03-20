@@ -4,7 +4,7 @@
 | Kelas   | TI.20.A.1        |
 
 ## Langkah langkah praktikum 2
-Membuka text editor, Saya menggunakan Sublime text
+Membuka text editor, Saya menggunakan Visual Studio Code
 ![screenshot](screenshot/foto1.png)
  
 ## 1. Membuat Dokumen HTML
