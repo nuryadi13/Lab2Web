@@ -1,0 +1,35 @@
+body {
+    margin: 3% auto;
+    width: 50%;
+    font-size: 1.3rem;
+    font-weight: 400;
+    letter-spacing: .0225em;
+    line-height: 1.6em;
+    font-family: 'Nunito', sans-serif;
+    color: #000;
+    background: #FEFEFE;
+  }
+  
+  h2 {
+    font-weight: normal;
+    font-size: 2rem;
+  }
+  
+  .avatar {
+    width: 110px;
+    border-radius: 50%;
+  }
+  
+  .header-profile {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  @media only screen and (max-width: 760px) {
+    body {
+      width: 90%;
+    }
+  }
+  
+  
