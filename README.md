@@ -88,7 +88,7 @@ Disini saya merubah font-color pada title dan paragrafhnya, contoh pada gambar b
 
 	hasil perubahannya adalah :
 
-	![fotocss](/fotocss/foto4.png)
+	![fotocss](/fotocss/foto4..png)
 
 4. Deklarasi `id="paragraf-1"` akan ditampilkan pada browser, karena selektor id lebih spesifik dari class atau bahkan element P itu sendiri, kecuali jika kita menambahkan property pada inline element P maka selektor id tersebut akan tertimpa, karena inline lebih spesifik daripada id, class, dan element
 
