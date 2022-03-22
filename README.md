@@ -61,47 +61,35 @@ Kemudian simpan kembali dan refresh browser untuk melihat perubahannya
 4. Pada sebuah elemen HTML terdapat ID dan Class, apabila masing-masing selector tersebut terdapat deklarasi CSS, maka deklarasi manakah yang akan ditampilkan pada browser? Berikan penjelasan dan contohnya! ( `<p id="paragraf-1" class="text-paragraf">` )
 
 ## Jawab
-1. Saya akan mengubah dan menambah properti dan nilai pada kode CSS, dimulai dari membuat kerangka html nya
-
-	![img1!](assets/img/praktikum/1.png)
-
-	Kemudian membuat CSS nya dengan menambah properti dan nilai pada kode
-
-	Saya menambahkan 4 selektor ke dalam CSS, diantaranya body, h2, .avatar, .header-profile. Masing-masing memiliki fungsi untuk mengatur tampilan pada html
-
-	pada selektor body saya menambahkan beberapa properti, yaitu margin, width, font-size, color, dst.
-
-	selektor h2, properti font-weight, font-size
-
-	selektor .avatar, properti width, border-radius
-
-	selektor .header-profile, display, justify-content, align-items
-
-	![img1-1!](assets/img/praktikum/1-1.png)
-
-	Pada hasil tersebut dapat dilihat, pada mode mobile lebar body terlalu ke tengah, karena widht pada selektor body diatur dengan nilai 50% pada ukuran desktop, agar dapat terlihat proporsional pada ukuran mobile dapat ditambahkan selektor `@media only screen and (max-width: 760px)`, dan hasil nya bisa dilihat 
-
-	![img1-2!](assets/img/praktikum/1-2.png)
-
+1. Lakukan eksperimen dengan mengubah dan menambah properti dan nilai pada kode CSS dengan mengacu pada CSS Cheat Sheet yang diberikan pada file terpisah dari modul ini.</b><br>
+  - Jawaban = 
+Disini saya merubah font-color pada title dan paragrafhnya, contoh pada gambar berikut : <br>
+![Fotocss](Fotocss/foto1.png)<br>  
+  
+  - Setelah perubahan,
+![Fotocss](Fotocss/foto2.png)<br>
 
 2. `h1{}` Untuk memberikan style pada semua element h1
 
 	`#intro h1{}` Awalan simbol hash (#) memungkinkan kita untuk memberi style pada id.
 	selector id bersifat kaku dan tidak bisa digunakan kembali pada element yang lainnya. Menurut saya lebih baik gunakan selektor class untuk mendefinisikan element yang ingin diberi nilai.
-![img2!](assets/img/praktikum/2.png)
 
 3. Setelah dilakukan pengujian, deklarasi CSS Inline lebih dahulu tampil di browser, itu dikarenakan permintaan HTTP yang sangat kecil memungkinkan untuk ditampilkan dahulu
 
 	Berikut merupakan hasil pengujian deklarasi CSS
 
-	CSS Inline `blue`
-	
-	CSS Internal `red`
+	CSS Inline    `blue`
+	  
+	CSS Internal  `red`
 	
 	CSS Eksternal `yellow`
 	
-	![img3!](assets/img/praktikum/3.png)
+	![Fotocss](Fotocss/foto3.png)
+
+	hasil perubahannya adalah :
+
+	![Fotocss](Fotocss/foto4.png)
 
 4. Deklarasi `id="paragraf-1"` akan ditampilkan pada browser, karena selektor id lebih spesifik dari class atau bahkan element P itu sendiri, kecuali jika kita menambahkan property pada inline element P maka selektor id tersebut akan tertimpa, karena inline lebih spesifik daripada id, class, dan element
 
-	![img4!](assets/img/praktikum/4.png)
+	![Fotocss](Fotocss/foto5.png)
