@@ -64,10 +64,10 @@ Kemudian simpan kembali dan refresh browser untuk melihat perubahannya
 1. Lakukan eksperimen dengan mengubah dan menambah properti dan nilai pada kode CSS dengan mengacu pada CSS Cheat Sheet yang diberikan pada file terpisah dari modul ini.</b><br>
   - Jawaban = 
 Disini saya merubah font-color pada title dan paragrafhnya, contoh pada gambar berikut : <br>
-![Fotocss](Fotocss/foto1.png)<br>  
+![fotocss](/fotocss/foto1.png)<br>  
   
   - Setelah perubahan,
-![Fotocss](Fotocss/foto2.png)<br>
+![fotocss](/fotocss/foto2.png)<br>
 
 2. `h1{}` Untuk memberikan style pada semua element h1
 
@@ -84,12 +84,12 @@ Disini saya merubah font-color pada title dan paragrafhnya, contoh pada gambar b
 	
 	CSS Eksternal `yellow`
 	
-	![Fotocss](Fotocss/foto3.png)
+	![fotocss](/fotocss/foto3.png)
 
 	hasil perubahannya adalah :
 
-	![Fotocss](Fotocss/foto4.png)
+	![fotocss](/fotocss/foto4.png)
 
 4. Deklarasi `id="paragraf-1"` akan ditampilkan pada browser, karena selektor id lebih spesifik dari class atau bahkan element P itu sendiri, kecuali jika kita menambahkan property pada inline element P maka selektor id tersebut akan tertimpa, karena inline lebih spesifik daripada id, class, dan element
 
-	![Fotocss](Fotocss/foto5.png)
+	![fotocss](/fotocss/foto5.png)
